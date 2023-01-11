@@ -1,5 +1,6 @@
+/* game board */
 .game-board {
-width: 300px;
+  width: 300px;
   height: 300px;
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* this will create a 3-column grid */
@@ -7,7 +8,5 @@ width: 300px;
   gap: 2px;
   margin: auto;
 
-
- /* this will add a gap between the cells */
-
+  /* this will add a gap between the cells */
 }
